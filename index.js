@@ -12,7 +12,7 @@ client.once('ready', () => {
 client.on('message', message => {
     if (message.content === '!chrimmis') {
 
-        var countDate = new Date("December 25, 2019").getTime();
+        var countDate = new Date("December 25, 2020").getTime();
         var now = new Date().getTime(); //current time
 
         var distance = countDate - now;
